@@ -1,5 +1,4 @@
 package com.bridgelabz;
-
 import java.util.Scanner;
 import java.lang.Math;
 public class LineComparision {
@@ -17,9 +16,22 @@ public class LineComparision {
             return lineLength;
 
         }
+        public static void LineEquality(int lineOneLength , int lineTwoLength ) {
+            if (lineOneLength == lineTwoLength) {
+                System.out.println("Lines are Equal");
+            } else
+            {
+                System.out.println("Lines are not Equal");
+            }
+        }
+
         public static void main(String[] args) {
-            int lineLength = LengthOfLine();
-            System.out.println("The length of line is: "+lineLength);
+            int lineOneLength = LengthOfLine();
+           int lineTwoLength = LengthOfLine();
+           System.out.println("The length of line 1 is: "+lineOneLength);
+           System.out.println("The length of line 2 is: "+lineTwoLength);
+           LineEquality(lineOneLength,lineTwoLength);
+
         }
 
     }
