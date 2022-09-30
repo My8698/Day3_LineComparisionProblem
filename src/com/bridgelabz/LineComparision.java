@@ -19,12 +19,16 @@ public class LineComparision {
         public static void LineEquality(int lineOneLength , int lineTwoLength ) {
             if (lineOneLength == lineTwoLength) {
                 System.out.println("Lines are Equal");
-            } else
+            }
+            else if(lineOneLength > lineTwoLength)
             {
-                System.out.println("Lines are not Equal");
+                System.out.println("Line 1 is greater than line 2 ");
+            }
+            else {
+                System.out.println("Line 2 is greater than Line 1 ");
+
             }
         }
-
         public static void main(String[] args) {
             int lineOneLength = LengthOfLine();
            int lineTwoLength = LengthOfLine();
