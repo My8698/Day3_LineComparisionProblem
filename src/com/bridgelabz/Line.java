@@ -1,6 +1,6 @@
 package com.bridgelabz;
 public class Line {
-    Point point1=new Point();
+    Point point1=new Point();///instance variable of class Point,Here we have to create two point for 1 line so that
     Point point2=new Point();
     public int getLengthOfLine(){
         int lineLength=(int)Math.sqrt(Math.pow((point2.getY()-point1.getY()),2)+Math.pow((point2.getX()-point1.getX()),2));

@@ -1,7 +1,7 @@
 package com.bridgelabz;
 import java.util.Scanner;
 public class Point {
-    private int x,y;
+    private int x,y;//to take coordinates of point
     Point(int x,int y){
         this.x=x;
         this.y=y;

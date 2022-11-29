@@ -1,5 +1,4 @@
 package com.bridgelabz;
-
 public class LineComparision {
     public static void main(String[] args) {
         Line line1=new Line();
